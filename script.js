@@ -86,7 +86,7 @@ function calc(){
 
 
 
-    const transferStage2=purchasePrice*0.03;
+    const transferStage2=purchasePrice*0.04;
 
     const vat=purchasePrice*0.05;
 
@@ -188,7 +188,7 @@ function calc(){
             </div>
 
             <div class="cost-description">
-                Restliche 3 % des Kaufpreises
+                Restliche 4 % des Kaufpreises
             </div>
 
         </div>
@@ -204,7 +204,7 @@ function calc(){
         <strong>Grundbuchgebühr (2. Teil)</strong><br><br>
 
         Nach Abschluss der Eigentumsübertragung werden die
-        restlichen <strong>3 %</strong> fällig.
+        restlichen <strong>4 %</strong> fällig.
 
     </div>
 
