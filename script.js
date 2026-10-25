@@ -84,7 +84,7 @@ function calc(){
 
     const stampDuty=purchasePrice*0.005;
 
-    const transferStage1=purchasePrice*0.06;
+
 
     const transferStage2=purchasePrice*0.03;
 
@@ -92,10 +92,9 @@ function calc(){
 
   const lawyerFee = 1500;
 
-  const stage1Total =
+ const stage1Total =
     purchasePrice +
     stampDuty +
-    transferStage1 +
     lawyerFee;
 
    const stage2Total =
@@ -143,39 +142,7 @@ function calc(){
 
         </div>
 
-        <div class="cost-row">
-
-            <div class="cost-left">
-
-                <div class="cost-title">
-                    Grundbuchgebühr (1. Teil)
-                    <span class="info" onclick="toggleInfo('transferInfo')">i</span>
-                </div>
-
-                <div class="cost-description">
-                    6 % des Kaufpreises
-                </div>
-
-            </div>
-
-            <div class="cost-right">
-                ${formatEuro(transferStage1)}
-            </div>
-
-        </div>
-
-        <div id="transferInfo" class="info-box">
-
-            <strong>Grundbuchgebühr</strong><br><br>
-
-            In Phase 1 werden
-            <strong>6 %</strong> der Grundbuchgebühr berechnet.
-
-            Die restlichen
-            <strong>3 %</strong>
-            folgen in Phase 2.
-
-        </div>
+        
 
     <div class="cost-row">
 
