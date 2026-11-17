@@ -176,7 +176,7 @@ function calc(){
     </div>
     <div class="stage">
 
-    <h3>Phase 2 – Eigentumsübertragung</h3>
+<h3>Phase 2 – Nach 1–2 Jahren fällig</h3>
 
     <div class="cost-row">
 
