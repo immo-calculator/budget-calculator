@@ -472,3 +472,122 @@ button:hover{
     display:block;
 
 }
+
+
+/* ==========================================
+   MOBILE OPTIMIERUNG – ERGEBNISBEREICH
+========================================== */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero {
+        padding: 25px 15px;
+    }
+
+    .card {
+        width: calc(100% - 24px);
+        margin: 20px auto;
+        padding: 20px 15px;
+    }
+
+    .card h2 {
+        font-size: 32px;
+    }
+
+    #result {
+        width: 100%;
+        min-width: 0;
+        margin-top: 25px;
+    }
+
+    .result-card {
+        width: 100%;
+        min-width: 0;
+        padding: 15px 12px;
+        margin-top: 20px;
+    }
+
+    .result-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .stage {
+        width: 100%;
+        min-width: 0;
+        padding: 15px 12px;
+        margin-top: 20px;
+    }
+
+    .stage h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    /* Kostenpositionen untereinander statt nebeneinander */
+    .cost-row {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+        padding: 14px 0;
+    }
+
+    .cost-left {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .cost-title {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+    .cost-description {
+        font-size: 12px;
+    }
+
+    .cost-right {
+        width: 100%;
+        text-align: left;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        font-size: 17px;
+    }
+
+    /* Zwischensummen */
+    .stage-total {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 17px;
+    }
+
+    /* Gesamtbudget */
+    .grand-total {
+        padding: 22px 12px;
+        margin-top: 25px;
+    }
+
+    .grand-total h2 {
+        font-size: 30px;
+    }
+
+    .grand-total .price {
+        font-size: clamp(25px, 8vw, 36px);
+        overflow-wrap: anywhere;
+    }
+
+    .roi-box,
+    .notice,
+    .info-box {
+        padding: 15px;
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+}
+
